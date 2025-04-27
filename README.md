@@ -44,11 +44,19 @@
 
 Service	Purpose
 VPC/Subnets	Network infrastructure
+
 IAM	User access control (least privilege)
+
 CloudTrail	API activity logging
+
 Lambda	Log processing & alerting
+
 SNS	Email notifications
+
 EventBridge	Triggering Lambda based on CloudTrail & GuardDuty
+
 GuardDuty	Threat detection
+
 S3	CloudTrail log storage
+
 Terraform	Infrastructure as Code (IaC)
